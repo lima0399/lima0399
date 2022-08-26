@@ -1,0 +1,12 @@
+Create a program that asks the user for a number and then prints out a list of all the divisors of that number.
+
+void main() {
+  Exercicio(40);
+}
+Exercicio(int numb) {
+  for (int i = 1; i <= numb; i++) {
+    if (numb % i == 0) {
+      print(i);
+    }
+  }
+}
